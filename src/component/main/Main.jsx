@@ -14,7 +14,7 @@ function Main() {
                     <a
                         href="src/assets/file/AysuNabizadaCV.pdf"
                         download="AysuNabizadaCV.pdf"
-                        className="cursor-pointer flex justify-between bg-gray-800 px-4 py-2.5 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[165px]">
+                        className="cursor-pointer flex justify-between bg-gray-800 px-4 py-2.5 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[170px]">
                         Download CV
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5 animate-bounce">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0L4.5 13.5M12 21V3"></path>

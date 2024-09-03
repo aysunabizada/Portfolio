@@ -1,3 +1,5 @@
+import logo from '../../public/logoAN.png'
+
 function Header() {
     return (
         <header>
@@ -9,7 +11,7 @@ function Header() {
                     <li className="text-gray-600 hover:text-gray-300 transition-all cursor-pointer font-semibold"><a href="#contact">Contact</a></li>
                 </ul>
                 <a href="" className="sm:hidden block">
-                    <img src="./public/logoAN.png" className="w-14 m-auto cursor-pointer" alt="Logo" />
+                    <img src={logo} className="w-14 m-auto cursor-pointer" alt="Logo" />
                 </a>
             </div>
         </header>

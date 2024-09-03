@@ -4,6 +4,7 @@
 
 html{ scroll-behavior: smooth; overflow-x: hidden;}
 body {
+    overflow-x: hidden !important;
     background: rgb(23, 39, 60);
     background: linear-gradient(0deg, rgb(24, 40, 63) 0%, rgb(0, 1, 16) 100%)center/cover no-repeat;
 }
