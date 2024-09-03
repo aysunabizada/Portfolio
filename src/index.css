@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{ scroll-behavior: smooth; overflow-x: hidden;}
+body {
+    background: rgb(23, 39, 60);
+    background: linear-gradient(0deg, rgb(24, 40, 63) 0%, rgb(0, 1, 16) 100%)center/cover no-repeat;
+}
+.shadoww {box-shadow: rgba(84, 84, 84, 0.15) 0px 48px 100px 0px;}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #000002;
+}
+::-webkit-scrollbar-thumb {
+    background: #01013f;
+    box-shadow: rgba(210, 207, 207, 0.15) 0px 48px 100px 0px;
+}
