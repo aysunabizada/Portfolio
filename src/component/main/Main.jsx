@@ -2,6 +2,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Projects from "./Projects"
 import Skills from "./Skills"
+import pdf from "../../assets/file/AysuNabizadaCV.pdf"
 
 function Main() {
     return (
@@ -12,8 +13,8 @@ function Main() {
                 <div data-aos="fade-left"><p className="text-2xl text-blue-300 italic tracking-widest">Front-End Developer</p></div>
                 <div className="flex justify-center my-8">
                     <a
-                        href="src/assets/file/AysuNabizadaCV.pdf"
-                        download="AysuNabizadaCV.pdf"
+                        href={pdf}
+                        download
                         className="cursor-pointer flex justify-between bg-gray-800 px-4 py-2.5 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[170px]">
                         Download CV
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5 animate-bounce">
