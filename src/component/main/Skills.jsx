@@ -8,7 +8,7 @@ import { DiJqueryLogo } from "react-icons/di";
 function Skills() {
     return (
         <section id='skills' className="container m-auto pb-9 pt-10">
-            {/* <h2 className="font-semibold text-gray-400 text-lg px-3 py-4 border-gray-800">Skills:</h2> */}
+            <h2 className="font-semibold text-gray-400 text-lg px-3 border-gray-800">Skills:</h2>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
@@ -22,11 +22,6 @@ function Skills() {
                 breakpoints={{
                     320: {
                         slidesPerView: 3,
-                        spaceBetween: 10,
-                        centeredSlides: true,
-                    },
-                    480: {
-                        slidesPerView: 4,
                         spaceBetween: 10,
                         centeredSlides: true,
                     },
