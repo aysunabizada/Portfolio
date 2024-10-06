@@ -6,6 +6,7 @@ import apple from '../assets/img/apple.png'
 import arsha from '../assets/img/arsha.png'
 import starbucks from '../assets/img/starbucks.png'
 import wonder from '../assets/img/wonder.png'
+import greenshop from '../assets/img/greenshop.png'
 
 
 const data = [
@@ -36,6 +37,13 @@ const data = [
             "technologies": ["HTML5", "CSS3", "JavaScript","SwiperJs"],
             "description": "Bu layihə bank sistemi JS ilə yazılmışdır.",
             "link": "https://atbb.vercel.app/"
+        },
+        {
+            "name": "GreenShop",
+            "image": greenshop,
+            "technologies": ["HTML5", "TailwindCSS", "React","SwiperJs"],
+            "description": "Bu layihə onlayn mağaza üçün alış-veriş səbəti funksionallığını təmin edir. UI tamamilə özümə məxsusdur. Backend-də ExpressJs-lə admin panel qurulub.",
+            "link": "https://greenshop-market.vercel.app/"
         },
         {
             "name": "Apple",
