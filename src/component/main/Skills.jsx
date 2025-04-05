@@ -11,7 +11,21 @@ import { BsFiletypeSql } from "react-icons/bs";
 function Skills() {
     return (
         <section id='skills' className="container m-auto pb-9 pt-10">
-            <h2 className="font-semibold text-gray-400 text-lg px-3 border-gray-800">Skills:</h2>
+            <h2 className="font-semibold uppercase italic tracking-wider text-gray-800 text-xl px-3 border-b py-4 border-gray-500">Skills:</h2>
+            <div id="soft-skills" className="py-10 px-4 text-gray-800">
+                <h2 className="text-xl font-semibold tracking-wider italic mb-4">Soft Skills:</h2>
+                <ul className="grid gap-6 xl:grid-cols-2 text-gray-800">
+                    <li><strong>Communication:</strong> Clearly explain ideas to both technical and non-technical teammates.</li>
+                    <li><strong>Creativity:</strong> Bring visual and structural harmony to UI design with a keen eye for aesthetics.</li>
+                    <li><strong>Empathy:</strong> Understand user needs and prioritize accessibility and usability.</li>
+                    <li><strong>Attention to Detail:</strong> Polish user interfaces with careful layout and bug handling.</li>
+                    <li><strong>Problem Solving:</strong> Break down complex tasks into clean, efficient solutions.</li>
+                    <li><strong>Adaptability:</strong> Quickly learn new technologies and adjust to different project requirements.</li>
+                    <li><strong>Teamwork:</strong> Collaborate in team-based environments and contribute to shared goals.</li>
+                    <li><strong>Resilience:</strong> Persist through challenges with a growth mindset and determination.</li>
+                </ul>
+            </div>
+            {/* <h2 className="text-xl pl-3 font-semibold tracking-wider italic mb-4">Technical Skills:</h2> */}
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
@@ -19,9 +33,9 @@ function Skills() {
                 centeredSlides={true}
                 loop={true}
                 speed={3000}
-                autoplay={{ 
-                    delay: 2500, 
-                    disableOnInteraction: false 
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false
                 }}
                 breakpoints={{
                     320: {
@@ -43,19 +57,19 @@ function Skills() {
                 modules={[Pagination, Autoplay]}
                 className="mySwiper text-gray-300 py-12 w-full m-auto text-center pl-7 sm:pl-0"
             >
-                <SwiperSlide><FaHtml5 className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaCss3Alt className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaJs className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiReactjsFill className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiTailwindCssFill className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><DiJqueryLogo className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaGit className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiNextjsLine className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiBootstrapFill className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaSass className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><TbBrandRedux className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaFigma className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
-                <SwiperSlide><BsFiletypeSql className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaHtml5 className='text-gray-600 hover:text-red-700 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaCss3Alt className='text-gray-600 hover:text-blue-800 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaJs className='text-gray-600 hover:text-yellow-600 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiReactjsFill className='text-gray-600 hover:text-blue-400 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiTailwindCssFill className='text-gray-600 hover:text-cyan-700 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><DiJqueryLogo className='text-gray-600 hover:text-cyan-800 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaGit className='text-gray-600 hover:text-red-800 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiNextjsLine className='text-gray-600 hover:text-black text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiBootstrapFill className='text-gray-600 hover:text-purple-800 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaSass className='text-gray-600 hover:text-pink-500 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><TbBrandRedux className='text-gray-600 hover:text-purple-800 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaFigma className='text-gray-600 hover:text-gray-900 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><BsFiletypeSql className='text-gray-600 hover:text-orange-500 text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
             </Swiper>
         </section>
     )

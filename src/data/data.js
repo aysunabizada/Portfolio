@@ -26,6 +26,13 @@ const data = [
             "description": "This is a music player app. You can search for songs, listen to them, and add them to your favorites. The app is built using React and Tailwind CSS.",
             "link": "https://mahny.netlify.app/"
         },
+        {
+            "name": "GreenShop",
+            "image": greenshop,
+            "technologies": ["HTML5", "TailwindCSS", "React","SwiperJs"],
+            "description": "Bu layihə onlayn mağaza üçün alış-veriş səbəti funksionallığını təmin edir. UI tamamilə özümə məxsusdur. Backend-də ExpressJs-lə admin panel qurulub.",
+            "link": "https://greenshop-market.vercel.app/"
+        },
         // {
         //     "name": "Neptun Supermarket",
         //     "image": neptun,
@@ -53,13 +60,6 @@ const data = [
             "technologies": ["HTML5", "CSS3", "JavaScript","SwiperJs"],
             "description": "Bu layihə bank sistemi JS ilə yazılmışdır.",
             "link": "https://atbb.vercel.app/"
-        },
-        {
-            "name": "GreenShop",
-            "image": greenshop,
-            "technologies": ["HTML5", "TailwindCSS", "React","SwiperJs"],
-            "description": "Bu layihə onlayn mağaza üçün alış-veriş səbəti funksionallığını təmin edir. UI tamamilə özümə məxsusdur. Backend-də ExpressJs-lə admin panel qurulub.",
-            "link": "https://greenshop-market.vercel.app/"
         },
         {
             "name": "Apple",

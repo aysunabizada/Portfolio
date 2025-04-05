@@ -6,7 +6,7 @@ import { IoLogoVercel } from "react-icons/io5";
 function Contact() {
     return (
         <section id='contact' className="container m-auto pt-10">
-            <h2 className="font-semibold text-gray-400 text-xl italic px-3 border-b py-4 border-gray-800">CONTACT</h2>
+            <h2 className="font-semibold text-gray-400 tracking-wider text-xl italic px-3 border-b py-4 border-gray-600">CONTACT</h2>
             <div className="relative">
                 <div className="absolute inset-0">
                     <div className="absolute inset-y-0 left-0 w-1/2" />
@@ -56,7 +56,7 @@ function Contact() {
                                     <input
                                         type="text"
                                         className="block w-full rounded-md bg-[#0000002f] border outline-none text-white border-gray-700 py-3 px-4 focus:border-indigo-800"
-                                        placeholder="Blabla"
+                                        placeholder="your name"
                                     />
                                 </div>
                                 <div>
