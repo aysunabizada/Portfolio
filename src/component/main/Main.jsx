@@ -2,7 +2,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Projects from "./Projects"
 import Skills from "./Skills"
-import pdf from "../../assets/file/AysuNabizadaCV.pdf"
+import pdf from "../../assets/file/AysuNabizada-CV.pdf"
 
 function Main() {
     return (

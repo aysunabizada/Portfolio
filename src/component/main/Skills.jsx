@@ -1,9 +1,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Pagination, Autoplay } from 'swiper/modules';
-import { RiReactjsFill, RiTailwindCssFill, RiBootstrapFill } from "react-icons/ri";
+import { RiReactjsFill, RiTailwindCssFill, RiBootstrapFill, RiNextjsLine } from "react-icons/ri";
 import { FaJs, FaHtml5, FaCss3Alt, FaSass, FaGit, FaFigma } from "react-icons/fa";
 import { DiJqueryLogo } from "react-icons/di";
+import { TbBrandRedux } from "react-icons/tb";
+import { BsFiletypeSql } from "react-icons/bs";
+
 
 function Skills() {
     return (
@@ -15,6 +18,7 @@ function Skills() {
                 mousewheel={true}
                 centeredSlides={true}
                 loop={true}
+                speed={3000}
                 autoplay={{ 
                     delay: 2500, 
                     disableOnInteraction: false 
@@ -39,16 +43,19 @@ function Skills() {
                 modules={[Pagination, Autoplay]}
                 className="mySwiper text-gray-300 py-12 w-full m-auto text-center pl-7 sm:pl-0"
             >
-                <SwiperSlide><FaHtml5 className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaCss3Alt className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaJs className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiReactjsFill className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiTailwindCssFill className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><DiJqueryLogo className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaGit className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><RiBootstrapFill className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaSass className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
-                <SwiperSlide><FaFigma className='text-[4em] cursor-pointer hover:scale-125 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaHtml5 className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaCss3Alt className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaJs className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiReactjsFill className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiTailwindCssFill className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><DiJqueryLogo className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaGit className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiNextjsLine className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><RiBootstrapFill className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaSass className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><TbBrandRedux className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><FaFigma className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
+                <SwiperSlide><BsFiletypeSql className='text-[4em] cursor-pointer hover:scale-110 duration-300 transition-all' /></SwiperSlide>
             </Swiper>
         </section>
     )
