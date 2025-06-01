@@ -2,7 +2,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Projects from "./Projects"
 import Skills from "./Skills"
-import pdf from "../../assets/file/AysuNabizada-CV.pdf"
+import pdf from "../../assets/file/AysuNabizade-CV.pdf"
 import homephoto from "../../assets/img/bgphoto.png"
 import { HiChevronDoubleUp } from "react-icons/hi2";
 
@@ -31,7 +31,7 @@ function Main() {
                     </div>
                 </div>
                 <div data-aos="fade-right"><p className="text-2xl text-yellow-700 italic">Hi, I'm</p></div>
-                <div data-aos="zoom-in"><h1 className="text-[5em] font-bold text-gray-800 tracking-wide">Aysu Nabizada</h1></div>
+                <div data-aos="zoom-in"><h1 className="text-[5em] font-bold text-gray-800 tracking-wide">Aysu Nabizade</h1></div>
                 <div data-aos="fade-left"><p className="text-2xl text-yellow-700 italic tracking-widest">Front-End Developer</p></div>
                 <div className="flex lg:justify-end justify-center my-8">
                     <a
