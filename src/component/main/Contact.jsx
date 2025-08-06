@@ -6,13 +6,9 @@ import { IoLogoVercel } from "react-icons/io5";
 function Contact() {
     return (
         <section id='contact' className="container m-auto pt-10">
-            <h2 className="font-semibold text-gray-400 tracking-wider text-xl italic px-3 border-b py-4 border-gray-600">CONTACT</h2>
             <div className="relative">
-                <div className="absolute inset-0">
-                    <div className="absolute inset-y-0 left-0 w-1/2" />
-                </div>
                 <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
-                    <div className=" py-16 px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12" data-aos="zoom-in-left">
+                    <div className="py-16 lg:col-span-2 lg:py-24" data-aos="zoom-in-left">
                         <div className="mx-auto max-w-lg">
                             <h2 className="text-2xl font-bold tracking-tight text-gray-300 sm:text-[2em]">Get in touch</h2>
                             <p className="mt-3 text-lg leading-6 text-gray-500">Contact Info:</p>
@@ -47,7 +43,7 @@ function Contact() {
                             <a href="https://vercel.com/aysus-projects-a7666433"><IoLogoVercel className='text-[2em] text-gray-400 hover:text-gray-100 hover:shadow-gray-500 shadow-xl' /></a>
                         </div>
                     </div>
-                    <div className="py-16 px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12" data-aos="zoom-in-right">
+                    <div className="py-16 lg:col-span-3 lg:py-24" data-aos="zoom-in-right">
                         <div className="mx-auto max-w-lg lg:max-w-none">
                             <h2 className="text-2xl pb-5 font-bold tracking-tight text-gray-300 sm:text-[2em]">Just say Hello</h2>
                             <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">

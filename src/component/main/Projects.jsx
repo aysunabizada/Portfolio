@@ -13,21 +13,21 @@ const techIcons = {
 
 function Projects() {
     return (
-        <section id="projects" className="container m-auto text-gray-800 py-10">
-            <h2 className="font-semibold text-xl tracking-wider border-b py-4 border-gray-500 italic px-3">PROJECTS</h2>
-            <p className="pt-6 px-3 text-lg">You can go to the site by clicking on the pictures!</p>
-            <p className="py-2 px-3 text-lg">Check out <a href="https://github.com/aysunabizada" className="underline hover:text-indigo-800 transition-all">GitHub</a> for more!</p>
-            <div className="flex flex-wrap gap-[2vw] justify-center p-5" data-aos="zoom-out">
+        <section id="projects" className="container m-auto text-gray-200 py-10">
+            <h2 className="font-semibold text-xl tracking-wider py-4 italic">PROJECTS</h2>
+            <p className="pt-6 text-lg">You can go to the site by clicking on the pictures!</p>
+            <p className="py-2 text-lg">Check out <a href="https://github.com/aysunabizada" className="underline hover:text-indigo-800 transition-all">GitHub</a> for more!</p>
+            <div className="flex flex-wrap gap-[1.2vw] justify-center py-5" data-aos="zoom-out">
                 {
                     data?.map((item, i) =>
                         <a key={i} href={item.link} target="_blank">
-                            <div className="max-w-sm p-4 hover:scale-105 card transition-all bg-[#b7b7b7] rounded-md text-gray-800">
+                            <div className="max-w-[20vw] p-4 hover:scale-105 card transition-all bg-[#000000] rounded-md text-gray-600">
                                 <div className="space-y-4">
                                     <img src={item.image} alt={item.name} className="md:w-full w-[315px] m-auto filter brightness-[50%] transition-all rounded-md" />
                                     <div className="space-y-2">
                                         <h3 className="text-lg font-bold dark:text-default-600 tracking-wider">{item.name}</h3>
                                         <p className="leading-snug italic dark:text-gray-500">Technologies:</p>
-                                        <div className="flex items-center space-x-2">
+                                        <div className="flex items-center overflow-x-hidden space-x-2">
                                             {
                                                 item.technologies.map((tech, i) => (
                                                     <span key={i} className="flex items-center space-x-1 text-sm">
