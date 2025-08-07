@@ -6,7 +6,7 @@ function Main() {
         <main>
             <div className="md:pl-0 pl-10 min-h-[80vh] pt-[15vh] m-auto container">
                 <div data-aos="fade-right"><p className="text-2xl text-[#fff] italic">Hi, I'm</p></div>
-                <div data-aos="zoom-in"><h1 className="text-[5em] font-bold text-white tracking-wide">Aysu Nabizade</h1></div>
+                <div data-aos="zoom-in"><h1 className="text-[4em] sm:text-[5em] font-bold text-white tracking-wide">Aysu Nabizade</h1></div>
                 <div data-aos="fade-left"><p className="text-2xl text-[#fff] italic tracking-widest">Front-End Developer</p></div>
                 <div className="flex my-8">
                     <a

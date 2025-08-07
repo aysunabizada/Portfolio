@@ -5,7 +5,7 @@ import { IoLogoVercel } from "react-icons/io5";
 
 function Footer() {
     return (
-        <footer className="container m-auto py-10 flex items-center justify-between">
+        <footer className="container m-auto py-10 px-8 sm:px-0 flex items-center justify-between">
             <p className="text-gray-400 tracking-wider font-semibold">
                 © {new Date().getFullYear()} | Aysu Nabizade
             </p>

@@ -10,10 +10,10 @@ import { BsFiletypeSql } from "react-icons/bs";
 
 function Skills() {
     return (
-        <section id='skills' className="container m-auto pb-9 pt-10">
-            <div id="soft-skills" className="py-10 text-gray-100">
+        <section id='skills' className="container m-auto pb-9 sm:px-0 px-8 pt-10">
+            <div id="soft-skills" className="py-10 text-gray-200">
                 <h2 className="text-xl font-semibold tracking-wider italic mb-4">Soft Skills:</h2>
-                <ul className="grid gap-6 xl:grid-cols-2 text-gray-100">
+                <ul className="grid gap-6 xl:grid-cols-2 text-gray-300">
                     <li><strong>Communication:</strong> Clearly explain ideas to both technical and non-technical teammates.</li>
                     <li><strong>Creativity:</strong> Bring visual and structural harmony to UI design with a keen eye for aesthetics.</li>
                     <li><strong>Empathy:</strong> Understand user needs and prioritize accessibility and usability.</li>

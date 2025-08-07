@@ -5,7 +5,7 @@ import { IoLogoVercel } from "react-icons/io5";
 
 function Contact() {
     return (
-        <section id='contact' className="container m-auto pt-10">
+        <section id='contact' className="container m-auto px-8 sm:px-0 pt-10">
             <div className="relative">
                 <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
                     <div className="py-16 lg:col-span-2 lg:py-24" data-aos="zoom-in-left">
