@@ -21,7 +21,7 @@ function Projects() {
                 {
                     data?.map((item, i) =>
                         <a key={i} href={item.link} target="_blank">
-                            <div className="max-w-sm p-4 hover:scale-105 card transition-all bg-[#000000] rounded-md text-gray-600">
+                            <div className="max-w-xs p-4 hover:scale-105 card transition-all bg-[#000000] rounded-md text-gray-600">
                                 <div className="space-y-4">
                                     <img src={item.image} alt={item.name} className="md:w-full w-[315px] m-auto filter brightness-[50%] transition-all rounded-md" />
                                     <div className="space-y-2">

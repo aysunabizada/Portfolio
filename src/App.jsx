@@ -40,7 +40,7 @@ function App() {
   if (isLoading) {
     return (
       <div className="h-[100vh] bg-black flex justify-center items-center">
-        <div class="loader"></div>
+        <div className="loader"></div>
       </div>
     );
   }
